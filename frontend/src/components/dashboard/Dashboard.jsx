@@ -135,7 +135,7 @@ const Dashboard = () => {
             <div className="coin-details">
               <div className="detail-item">
                 <span className="label">Current Price:</span>
-                <span className="value">₹{coin.current_price}</span>
+                <span className="value">${coin.current_price}</span>
               </div>
               <div className="detail-item">
                 <span className="label">24h Change:</span>
@@ -151,11 +151,11 @@ const Dashboard = () => {
               </div>
               <div className="detail-item">
                 <span className="label">24h High:</span>
-                <span className="value">₹{coin.high_24h}</span>
+                <span className="value">${coin.high_24h}</span>
               </div>
               <div className="detail-item">
                 <span className="label">24h Low:</span>
-                <span className="value">₹{coin.low_24h}</span>
+                <span className="value">${coin.low_24h}</span>
               </div>
             </div>
           </div>
@@ -176,7 +176,7 @@ const Dashboard = () => {
             <div className="coin-details">
               <div className="detail-item">
                 <span className="label">Current Price:</span>
-                <span className="value">₹{coin.current_price}</span>
+                <span className="value">${coin.current_price}</span>
               </div>
               <div className="detail-item">
                 <span className="label">24h Change:</span>
@@ -192,11 +192,11 @@ const Dashboard = () => {
               </div>
               <div className="detail-item">
                 <span className="label">24h High:</span>
-                <span className="value">₹{coin.high_24h}</span>
+                <span className="value">${coin.high_24h}</span>
               </div>
               <div className="detail-item">
                 <span className="label">24h Low:</span>
-                <span className="value">₹{coin.low_24h}</span>
+                <span className="value">${coin.low_24h}</span>
               </div>
             </div>
           </div>
@@ -217,7 +217,7 @@ const Dashboard = () => {
             <div className="coin-details">
               <div className="detail-item">
                 <span className="label">Current Price:</span>
-                <span className="value">₹{coin.current_price}</span>
+                <span className="value">${coin.current_price}</span>
               </div>
               <div className="detail-item">
                 <span className="label">24h Change:</span>
@@ -233,11 +233,11 @@ const Dashboard = () => {
               </div>
               <div className="detail-item">
                 <span className="label">24h High:</span>
-                <span className="value">₹{coin.high_24h}</span>
+                <span className="value">${coin.high_24h}</span>
               </div>
               <div className="detail-item">
                 <span className="label">24h Low:</span>
-                <span className="value">₹{coin.low_24h}</span>
+                <span className="value">${coin.low_24h}</span>
               </div>
             </div>
           </div>
@@ -298,7 +298,7 @@ const Dashboard = () => {
                   }`}
                 >
                   <div className="coin-info-details-current">
-                    <p>₹{coin.current_price}</p>
+                    <p>${coin.current_price}</p>
                   </div>
                   <div className="coin-info-details-change">
                     <p>{coin.price_change_percentage_24h}%</p>
