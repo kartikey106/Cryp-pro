@@ -35,7 +35,7 @@ const Dashboard = () => {
         const response = await axios.get(
           "https://api.coingecko.com/api/v3/coins/markets",
           {
-            params: { vs_currency: "inr" },
+            params: { vs_currency: "usd" },
             headers: { accept: "application/json" },
           }
         );
@@ -59,7 +59,7 @@ const Dashboard = () => {
         const response = await axios.get(
           `https://api.coingecko.com/api/v3/coins/${coinId}/market_chart`,
           {
-            params: { vs_currency: "inr", days: `${days}` },
+            params: { vs_currency: "usd", days: `${days}` },
             headers: {
               accept: "application/json",
               "x-cg-demo-api-key": "CG-t7A1rTK5kUvupTsEX6DrQLmi",
